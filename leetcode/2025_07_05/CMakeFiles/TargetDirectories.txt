@@ -1,0 +1,3 @@
+/mnt/projects/QTCCP/cppwarrior/leetcode/2025_07_05/CMakeFiles/solution.dir
+/mnt/projects/QTCCP/cppwarrior/leetcode/2025_07_05/CMakeFiles/edit_cache.dir
+/mnt/projects/QTCCP/cppwarrior/leetcode/2025_07_05/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/solution.dir/solution.cpp.o -o solution 
