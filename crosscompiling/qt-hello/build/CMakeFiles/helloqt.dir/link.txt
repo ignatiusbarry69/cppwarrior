@@ -1,0 +1,1 @@
+/root/toolchains/gcc-arm-9.2-2019.12-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf-g++ CMakeFiles/helloqt.dir/main.cpp.o -o helloqt  -Wl,-rpath,/root/qt/QT5.9_A5/lib /root/qt/QT5.9_A5/lib/libQt5Core.so.5.9.8 -lstdc++ -lgcc_s

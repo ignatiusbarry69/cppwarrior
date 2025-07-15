@@ -3,15 +3,15 @@
 
 int main(){
     int i = 3;
-    int const*p = &i;
+    int const *p = &i;
     std::cout << "Value of p: " << *p << std::endl;
     i = 5;
     std::cout << "Value of p: " << *p << std::endl;
-    // *p = 10; //assignment to const pointer
+    // *p = 10; //illegal assignment to const pointer
     p = new int(10); //legal, p is a pointer to const int, but p itself are not const
     std::cout << "Value of p: " << *p << std::endl;
     int *const q = &i;
-    // q = &i; //illegal even if its redeclaration with the same address
+    // q = &i; //illegal even if its redeclaration with the same address because q is a const pointer
     *q = 31; //q are const pointer to plain int, not const int
     std::cout << "Value of q: " << *q << std::endl;
     p = q; //legal, we can point p to q, but we can't reassign q to p, because q is a const pointer
